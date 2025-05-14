@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ✅ MongoDB Atlas URI and JWT (not used in this example but mentioned)
-const MONGO_URI = 'mongodb+srv://nithinithish271:nithish1230@cluster0.cbw99.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://myAtlasDBUser:28-Aug-04@myatlasclusteredu.pkziu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const JWT_SECRET = '4953546c308be3088b28807c767bd35e99818434d130a588e5e6d90b6d1d326e';
 
 // ✅ Connect to MongoDB
